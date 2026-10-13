@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import torch
 
-from spt.model import load_checkpoint
-from spt.physics import dispersion_mask, similarity_scores
+from src.model import load_checkpoint
+from src.physics import dispersion_mask, similarity_scores
 
 
 def main() -> None:
