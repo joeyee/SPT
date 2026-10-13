@@ -1,7 +1,7 @@
 import numpy as np
 
-from spt.metrics import regression_metrics
-from spt.physics import dispersion_mask, feature_wnr, intrinsic_omega
+from src.metrics import regression_metrics
+from src.physics import dispersion_mask, feature_wnr, intrinsic_omega
 
 
 def test_regression_metrics_and_bins():
