@@ -1,6 +1,6 @@
 import numpy as np
 
-from spt.spectral import RadarGrid, extract_spectral_points
+from src.spectral import RadarGrid, extract_spectral_points
 
 
 def test_top_points_are_sorted_and_well_formed():
