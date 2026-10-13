@@ -14,9 +14,9 @@ import torch
 from torch import nn
 from torch.utils.data import DataLoader
 
-from spt.data import FEATURE_SETS, SpectralPointDataset
-from spt.metrics import regression_metrics
-from spt.model import SPT, SPTConfig
+from src.data import FEATURE_SETS, SpectralPointDataset
+from src.metrics import regression_metrics
+from src.model import SPT, SPTConfig
 
 
 def evaluate(model, loader, device):
