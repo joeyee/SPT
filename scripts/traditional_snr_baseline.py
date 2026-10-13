@@ -10,7 +10,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from spt.metrics import regression_metrics
+from src.metrics import regression_metrics
 
 
 def main() -> None:
