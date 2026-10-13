@@ -8,8 +8,8 @@ from pathlib import Path
 import numpy as np
 import torch
 
-from spt.model import load_checkpoint
-from spt.physics import dispersion_mask, feature_wnr, similarity_scores
+from src.model import load_checkpoint
+from src.physics import dispersion_mask, feature_wnr, similarity_scores
 
 
 def main() -> None:
