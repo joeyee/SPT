@@ -171,7 +171,3 @@ train checkpoints on their own authorized data.
   doi     = {10.1109/JOE.2026.3724015}
 }
 ```
-
-## License
-
-This project is released under the [MIT License](LICENSE).
