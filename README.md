@@ -63,7 +63,7 @@ It does not produce a scientifically meaningful wave-height estimate.
 ```python
 import torch
 
-from spt import SPT, SPTConfig
+from src.model import SPT, SPTConfig
 
 config = SPTConfig(
     input_dim=4,
@@ -84,11 +84,6 @@ with torch.no_grad():
 print(estimated_hs.shape)  # torch.Size([2])
 ```
 
-You can also run:
-
-```bash
-python examples/synthetic_smoke_test.py
-```
 
 ## Workflow with an authorized dataset
 
