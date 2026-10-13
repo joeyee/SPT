@@ -190,3 +190,28 @@ train checkpoints on their own authorized data.
 ## License
 
 This project is released under the [MIT License](LICENSE).
+
+
+{
+  "feature_set": "kxkywp",
+  "feature_indices_in_stored_points": [1, 2, 3, 4],
+  "num_points": 512,
+  "embed_dim": 128,
+  "heads": 8,
+  "blocks": 2,
+  "attention_type": "offset",
+  "qk_norm": true,
+  "dropout": 0.01,
+  "epochs": 400,
+  "batch_size": 32,
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "scheduler": "CosineAnnealingLR",
+  "eta_min": 0.00001,
+  "loss": "SmoothL1Loss",
+  "seed": 1981,
+  "radar_grid": {"nx": 128, "ny": 128, "nt": 64, "dx_m": 7.5, "dy_m": 7.5, "dt_s": 2.5},
+  "water_depth_m": 39.0
+}
+
