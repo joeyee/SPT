@@ -138,12 +138,6 @@ The paper reports the following results on its event-level validation split:
 | RMSE, $2.5 \leq H_s \leq 4.0$ m | 0.32 m |
 | RMSE, $H_s > 4.0$ m | 0.39 m |
 
-Aggregate machine-readable records are provided under
-[`artifacts/reported_results`](artifacts/reported_results). These values are
-reported experimental results; exact numerical reproduction requires the
-protected research data and is therefore outside the scope of this public
-release.
-
 ## Data and model availability
 
 The Shengshan raw marine-radar data are protected by data-ownership and usage
