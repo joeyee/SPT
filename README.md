@@ -127,10 +127,6 @@ python scripts/analyze_alignment.py \
   --output outputs/evaluation/alignment.csv
 ```
 
-See [DATA_FORMAT.md](docs/DATA_FORMAT.md),
-[REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md), and
-[PAPER_CODE_MAP.md](docs/PAPER_CODE_MAP.md) for details.
-
 ## Reported paper configuration and results
 
 The principal configuration is Top-512 `[kx, ky, omega, power]`, embedding
