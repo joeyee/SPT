@@ -1,6 +1,6 @@
 import torch
 
-from spt.model import SPT, SPTConfig, load_checkpoint
+from src.model import SPT, SPTConfig, load_checkpoint
 
 
 def test_output_shape_and_permutation_invariance():
