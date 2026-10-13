@@ -12,9 +12,9 @@ import numpy as np
 import torch
 from torch.utils.data import DataLoader
 
-from spt.data import SpectralPointDataset
-from spt.metrics import regression_metrics
-from spt.model import load_checkpoint
+from src.data import SpectralPointDataset
+from src.metrics import regression_metrics
+from src.model import load_checkpoint
 
 
 def main() -> None:
