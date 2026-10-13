@@ -9,7 +9,7 @@ from pathlib import Path
 import numpy as np
 import torch
 
-from spt.spectral import RadarGrid, extract_spectral_points, infer_zone_id, load_radar_npy
+from src.spectral import RadarGrid, extract_spectral_points, infer_zone_id, load_radar_npy
 
 
 def clamp_frames(cube: np.ndarray, multiple: float = 10.0) -> np.ndarray:
