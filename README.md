@@ -32,14 +32,11 @@ X-band marine-radar sea clutter. The paper configuration retains the strongest
 ## Repository layout
 
 ```text
-src/spt/                     Core model, data, spectrum, metrics, and physics
+src/                         Core model, data, spectrum, metrics, and physics
 scripts/                     Preprocessing, splitting, training, evaluation,
                              physical analysis, and figure generation
 configs/paper.json           Architecture and optimization configuration
-artifacts/reported_results/  Aggregate results reported by the paper
-docs/                        Data format, reproducibility notes, and code map
 tests/                       Unit tests independent of the protected dataset
-examples/                    Synthetic interface smoke test
 ```
 
 ## Installation
